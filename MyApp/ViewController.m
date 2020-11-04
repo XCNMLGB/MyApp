@@ -12,6 +12,20 @@
 
 @end
 
+struct Date {
+    int year;
+    int month;
+    int day;
+};
+
+struct Student {
+    int age;
+    char sex;
+    char name[10];
+    
+    struct Date date;
+};
+
 @implementation ViewController
 
 - (void)viewDidLoad {
